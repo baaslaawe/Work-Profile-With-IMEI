@@ -45,25 +45,12 @@ public class BasicDeviceAdminReceiver extends DeviceAdminReceiver {
     @Override
     public void onProfileProvisioningComplete(@NonNull Context context, @NonNull Intent intent) {
 
-        final PostProvisioningHelper helper = new PostProvisioningHelper(context);
-
         Log.e(TAG, "onProfileProvisioningComplete");
 
-        if (helper.isDone()) {
-            Log.e(TAG, "onProfileProvisioningComplete helper is done");
+        Intent i = new Intent(context, AnotherActivity.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(i);
 
-            try {
-                TelephonyManager telephonyManager = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
-                String imei = telephonyManager.getImei();
-                Toast.makeText(context, "IMEI FROM WORK PROFILE : "+imei, Toast.LENGTH_LONG).show();
-                Log.e("IMEI", "IMEI: "+imei);
-            } catch (Exception e ){
-
-            }
-
-            helper.removeProfile();
-
-        }
     }
 
 

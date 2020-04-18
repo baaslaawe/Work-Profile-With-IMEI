@@ -15,7 +15,7 @@
 11-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:8:22-72
 12
 13    <application
-13-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:10:5-47:19
+13-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:10:5-51:19
 14        android:allowBackup="true"
 14-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:11:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,71 +28,74 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:14:9-40
-21        <activity android:name="com.lk6.simpleworkprofile.WorkProfileWithLoadingActivity" />
-21-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:16:9-77
-21-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:16:19-65
-22        <activity
-22-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:17:9-26:20
-23            android:name="com.lk6.simpleworkprofile.WorkProfileActivity"
-23-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:18:13-48
-24            android:label="@string/app_name" >
-24-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:19:13-45
-25            <intent-filter>
-25-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:20:13-25:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:21:17-69
-26-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:21:25-66
-27                <action android:name="com.lk6.simpleworkprofile.ACTION_HOMELAUNCHER" />
-27-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:22:17-88
-27-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:22:25-85
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:24:17-77
-29-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:24:27-74
-30            </intent-filter>
-31        </activity>
-32        <activity
-32-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:27:9-34:20
-33            android:name="com.lk6.simpleworkprofile.ProvisioningSuccessActivity"
-33-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:28:13-56
-34            android:label="@string/app_name" >
-34-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:29:13-45
-35            <intent-filter>
-35-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:30:14-33:30
-36                <action android:name="android.app.action.PROVISIONING_SUCCESSFUL" />
-36-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:31:18-86
-36-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:31:26-83
-37
-38                <category android:name="android.intent.category.DEFAULT" />
-38-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:32:18-77
-38-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:32:28-74
-39            </intent-filter>
-40        </activity>
-41
-42        <receiver
-42-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:35:9-46:20
-43            android:name="com.lk6.simpleworkprofile.BasicDeviceAdminReceiver"
-43-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:36:13-53
-44            android:description="@string/app_name"
-44-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:37:13-51
-45            android:label="@string/app_name"
-45-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:38:13-45
-46            android:permission="android.permission.BIND_DEVICE_ADMIN" >
-46-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:39:13-70
-47            <meta-data
-47-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:40:13-42:71
-48                android:name="android.app.device_admin"
-48-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:41:17-56
-49                android:resource="@xml/basic_device_admin_receiver" />
-49-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:42:17-68
-50
-51            <intent-filter>
-51-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:43:13-45:29
-52                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
-52-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:44:17-82
-52-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:44:25-79
-53            </intent-filter>
-54        </receiver>
-55    </application>
-56
-57</manifest>
+21        <activity android:name="com.lk6.simpleworkprofile.AnotherActivity" />
+21-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:16:9-62
+21-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:16:19-50
+22        <activity android:name="com.lk6.simpleworkprofile.WorkProfileWithLoadingActivity" />
+22-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:17:9-68
+22-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:17:19-65
+23        <activity
+23-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:18:9-27:20
+24            android:name="com.lk6.simpleworkprofile.WorkProfileActivity"
+24-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:19:13-48
+25            android:label="@string/app_name" >
+25-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:20:13-45
+26            <intent-filter>
+26-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:21:13-26:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:22:17-69
+27-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:22:25-66
+28                <action android:name="com.lk6.simpleworkprofile.ACTION_HOMELAUNCHER" />
+28-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:23:17-88
+28-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:23:25-85
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:25:17-77
+30-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:25:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:28:9-36:20
+34            android:name="com.lk6.simpleworkprofile.ProvisioningSuccessActivity"
+34-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:29:13-56
+35            android:label="@string/app_name" >
+35-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:30:13-45
+36            <intent-filter>
+36-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:31:13-35:29
+37                <action android:name="android.app.action.PROVISIONING_SUCCESSFUL" />
+37-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:32:17-85
+37-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:32:25-82
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:34:17-76
+39-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:34:27-73
+40            </intent-filter>
+41        </activity>
+42
+43        <receiver
+43-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:38:9-50:20
+44            android:name="com.lk6.simpleworkprofile.BasicDeviceAdminReceiver"
+44-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:39:13-53
+45            android:description="@string/app_name"
+45-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:40:13-51
+46            android:label="@string/app_name"
+46-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:41:13-45
+47            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+47-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:42:13-70
+48            <meta-data
+48-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:43:13-45:71
+49                android:name="android.app.device_admin"
+49-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:44:17-56
+50                android:resource="@xml/basic_device_admin_receiver" />
+50-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:45:17-68
+51
+52            <intent-filter>
+52-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:47:13-49:29
+53                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+53-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:48:17-82
+53-->/Users/zaenalarsy/Desktop/RanD/enterprise-samples/BasicManagedProfile/Application/src/main/AndroidManifest.xml:48:25-79
+54            </intent-filter>
+55        </receiver>
+56    </application>
+57
+58</manifest>

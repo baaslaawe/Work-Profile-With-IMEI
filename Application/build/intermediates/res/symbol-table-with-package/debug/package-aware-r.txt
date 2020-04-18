@@ -901,6 +901,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_another
 layout activity_work_profile_with_loading
 layout custom_dialog
 layout notification_action

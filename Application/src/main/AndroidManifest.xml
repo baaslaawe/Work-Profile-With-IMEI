@@ -13,7 +13,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".WorkProfileWithLoadingActivity"></activity>
+        <activity android:name=".AnotherActivity"></activity>
+        <activity android:name=".WorkProfileWithLoadingActivity" />
         <activity
             android:name=".WorkProfileActivity"
             android:label="@string/app_name">
@@ -27,11 +28,13 @@
         <activity
             android:name=".ProvisioningSuccessActivity"
             android:label="@string/app_name">
-             <intent-filter>
-                 <action android:name="android.app.action.PROVISIONING_SUCCESSFUL" />
-                 <category android:name="android.intent.category.DEFAULT" />
-             </intent-filter>
+            <intent-filter>
+                <action android:name="android.app.action.PROVISIONING_SUCCESSFUL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
+
         <receiver
             android:name=".BasicDeviceAdminReceiver"
             android:description="@string/app_name"
@@ -40,6 +43,7 @@
             <meta-data
                 android:name="android.app.device_admin"
                 android:resource="@xml/basic_device_admin_receiver" />
+
             <intent-filter>
                 <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
             </intent-filter>

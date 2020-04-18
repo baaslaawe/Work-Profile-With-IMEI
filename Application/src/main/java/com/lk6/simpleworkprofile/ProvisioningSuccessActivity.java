@@ -35,8 +35,13 @@ public class ProvisioningSuccessActivity extends AppCompatActivity {
 
         Log.e(TAG, "Ext listen and tell helper to complete");
 
-        final PostProvisioningHelper helper = new PostProvisioningHelper(this);
-        helper.completeProvisioning();
+//        final PostProvisioningHelper helper = new PostProvisioningHelper(this);
+//        helper.completeProvisioning();
+
+        Intent i = new Intent(this, AnotherActivity.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(i);
+
         finish();
 
     }
