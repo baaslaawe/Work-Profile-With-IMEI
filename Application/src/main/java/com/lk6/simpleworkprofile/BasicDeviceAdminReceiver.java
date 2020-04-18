@@ -46,6 +46,7 @@ public class BasicDeviceAdminReceiver extends DeviceAdminReceiver {
     public void onProfileProvisioningComplete(@NonNull Context context, @NonNull Intent intent) {
 
         final PostProvisioningHelper helper = new PostProvisioningHelper(context);
+        helper.completeProvisioning();
 
         Log.e(TAG, "onProfileProvisioningComplete");
 
