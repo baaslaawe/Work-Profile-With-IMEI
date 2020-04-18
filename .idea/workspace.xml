@@ -11,32 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec2e07b5-ef86-4976-bbd6-e41bac7d7f97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/lk6/simpleworkprofile/WorkProfileWithLoadingActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/activity_work_profile_with_loading.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/provisioning_success_activity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/work_profile_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/basicmanagedprofile/BasicDeviceAdminReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/basicmanagedprofile/BasicManagedProfileFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/basicmanagedprofile/EnableProfileActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/basicmanagedprofile/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/basicmanagedprofile/PostProvisioningHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/basicmanagedprofile/ProvisioningSuccessActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/basicmanagedprofile/SetupProfileFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/basic_managed_profile_fragment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/enable_profile_activity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/main_activity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/setup_profile_fragment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/lk6/simpleworkprofile/ProvisioningSuccessActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/lk6/simpleworkprofile/ProvisioningSuccessActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/lk6/simpleworkprofile/WorkProfileWithLoadingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/lk6/simpleworkprofile/WorkProfileWithLoadingActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +95,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zz1wKkBBL6U8FGcUYrnzgN0bjD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

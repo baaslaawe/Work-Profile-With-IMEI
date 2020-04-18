@@ -19,13 +19,47 @@ public class WorkProfileWithLoadingActivity extends AppCompatActivity {
 
     private static final int REQUEST_PROVISION_MANAGED_PROFILE = 1;
     private boolean TRY_AGAIN = true;
+    private final static String TAG = "LoadingActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_work_profile_with_loading);
 
+        Log.e(TAG, "onCreate");
+
         startWorKProfile();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        Log.e(TAG, "onCreate");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.e(TAG, "onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.e(TAG, "onResume");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.e(TAG, "onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.e(TAG, "onDestroy");
     }
 
     private void startWorKProfile() {

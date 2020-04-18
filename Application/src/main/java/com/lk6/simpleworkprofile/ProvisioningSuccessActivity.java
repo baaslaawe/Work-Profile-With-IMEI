@@ -25,16 +25,50 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class ProvisioningSuccessActivity extends AppCompatActivity {
 
+    // I call it EXTENSION is because, this activity didn't show anything, even with contentView
+    private final static String TAG = "EXTENSION";
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.provisioning_success_activity);
 
-        Log.e("EXTENSION", "Ext listen and tell helper to complete");
+        Log.e(TAG, "Ext listen and tell helper to complete");
 
         final PostProvisioningHelper helper = new PostProvisioningHelper(this);
         helper.completeProvisioning(getIntent());
         finish();
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        Log.e(TAG, "onCreate");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.e(TAG, "onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.e(TAG, "onResume");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.e(TAG, "onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.e(TAG, "onDestroy");
     }
 }
