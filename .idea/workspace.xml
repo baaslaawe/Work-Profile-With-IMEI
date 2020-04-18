@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec2e07b5-ef86-4976-bbd6-e41bac7d7f97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/lk6/simpleworkprofile/PostProvisioningHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/lk6/simpleworkprofile/PostProvisioningHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/lk6/simpleworkprofile/ProvisioningSuccessActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/lk6/simpleworkprofile/ProvisioningSuccessActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/lk6/simpleworkprofile/WorkProfileWithLoadingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/lk6/simpleworkprofile/WorkProfileWithLoadingActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

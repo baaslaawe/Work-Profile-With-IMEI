@@ -53,7 +53,7 @@ class PostProvisioningHelper {
         mSharedPrefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE);
     }
 
-    public void completeProvisioning(Intent intent) {
+    public void completeProvisioning() {
 
         Log.e(TAG, "onCompleteProv start");
 
